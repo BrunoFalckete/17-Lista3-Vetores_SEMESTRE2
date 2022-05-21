@@ -24,7 +24,6 @@ void eight();
 
 
 int main(){
-
     setlocale(LC_ALL, "portuguese-brazilian");
     int escolha, contador_geral = 1;
 
