@@ -100,10 +100,10 @@ int main(){
 }
 
 void one(){
-    int numeros[15], v1[15], v2[15], contador, pares = 0, impares = 0;
+    int numeros[15], v1[15], v2[15], contador;
 
     for(contador = 0; contador <= 14; contador++){
-        numeros[contador] = rand() % 20;
+        numeros[contador] = rand() % 20 +1;
     }
 
     printf("\n");
@@ -140,10 +140,10 @@ void one(){
 }
 
 void two(){
-    int numeros[15], v1[15], v2[15], contador, pares = 0, impares = 0;
+    int numeros[15], v1[15], v2[15], contador;
 
     for(contador = 0; contador <= 14; contador++){
-        numeros[contador] = rand() % 20;
+        numeros[contador] = rand() % 20 + 1;
     }
 
     printf("\n");
